@@ -33,7 +33,9 @@ body {
 <?php
 	//	必要なファイル準備
 	include('./Config/database.php');
-	
+	include('./Webroot/php/myFunc.php');
+	include('./Webroot/php/mysqliDB.php');
+
 	//	TODO	ファイルの存在判定の追加
 	//	コントローラー
 	include('./Controller/AppController.php');
